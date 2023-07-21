@@ -1,5 +1,5 @@
 # Diablo
-This script is a basic implementation of a C2 (Command-and-Control) connecting to a AM0N-Eye client that connects to a remote server specified by the IP address and port number provided as command-line arguments. Once connected, the client receives a payload of executable code from the server and executes it.
+This is a basic implementation of a C2 (Command-and-Control) connecting to a AM0N-Eye client that connects to a remote server specified by the IP address and port number provided as command-line arguments. Once connected, the client receives a payload of executable code from the server and executes it.
 
 The payload is received into a memory-mapped buffer that has read, write, and execute permissions. This buffer is allocated using the mmap system call. Once the payload is received, the socket is closed, and the buffer is executed as a function using a function pointer cast.
 
