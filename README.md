@@ -9,6 +9,6 @@ Build: gcc Diablo.c -o Diablo
 
 Use : ./command_control ip_address port
 
-![unnamed](https://user-images.githubusercontent.com/121706460/236619099-93f0310c-504b-4117-b0e9-206fb72baf4c.jpg)
 
+![imageedit_2_4732129814](https://github.com/S3N4T0R-0X0/Diablo/assets/121706460/c570211b-c7e0-4ea8-83df-824d6971fbb3)
 
